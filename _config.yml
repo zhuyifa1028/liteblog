@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 竹窝
+subtitle: 生活就是一场冒险，不断尝试，不断学习。
+description: 一个简简单单的小破站，记录学习的旅程，分享成长的点滴，探索编程世界的每一个奇迹与挑战。
+keywords: 程序员、程序猿、Java、Linux、Python
+author: 抱节君丶
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://zhuyifa1028.github.io
+# noinspection YAMLSchemaValidation
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -90,7 +91,11 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  # 处理 'source/css/test.css'
+  - "css/test.css"
 exclude:
+  # 不处理 'source/js/test.js'
+  - "js/test.js"
 ignore:
 
 # Extensions
