@@ -106,4 +106,8 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/zhuyifa1028/zhuyifa1028.github.io
+  branch: main
+  message: 安装butterfly主题
+  token: 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
