@@ -1,0 +1,7 @@
+.deploy*/
+.idea/
+node_modules/
+public/
+db.json
+yarn.lock
+package-lock.json

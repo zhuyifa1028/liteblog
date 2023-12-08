@@ -1,2 +1,2 @@
-# likeblog
-个人博客
+# liteblog
+一个小小的博客系统。
